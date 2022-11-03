@@ -3,8 +3,10 @@ extends layout
 block content
   a(href="/new") Write Something 
   h1= title
-  ul
-   each message in messages 
-    li= message.text
-    p= `- ${message.user}`
-    br
+  div(class='messages')
+   each message in messages
+    div(class='message') 
+      div(class='info')
+        p(class='user')= message.user
+        p(class='date') #{format(message.added)}
+      p(class='text')= message.text

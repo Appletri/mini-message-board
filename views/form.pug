@@ -4,9 +4,8 @@ block content
   h1= title 
   form(method="POST" action="/new")
     p
-      input(type="text", name='text', value='', placeholder='Enter a Message', required=true)
+      input(class='field', type="textbox", name='text', value='', placeholder='Enter a Message', required=true, maxlength="100")
       br
-      br
-      input(type="text", name='user', value='', placeholder='Name', required=true)
-    input(type='submit', value='Submit')
+      input(class='field', type="text", name='user', value='', placeholder='Name', required=true, maxlength='30')
+    input(class='submit', type='submit', value='Submit')
   
