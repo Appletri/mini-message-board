@@ -4,7 +4,7 @@
 - [Link to the Assignment](https://www.theodinproject.com/lessons/nodejs-mini-message-board)
 
 ## About
-### Express, NodeJS, PUG
+### Express, NodeJS, PUG, MongoDB
 
 The core of this assignment is to create a mini message board using express and to deploy it on heroku.
 
